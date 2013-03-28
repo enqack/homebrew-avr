@@ -75,7 +75,7 @@ class AvrGcc < Formula
     # Pick up any autotools changes.
     ENV['AUTOCONF'] = '/usr/local/bin/autoconf264'
     ENV['AUTOM4TE'] = '/usr/local/bin/autom4te264'
-    system "autoconf"
+    system "autoconf264"
 
     Dir.mkdir 'build'
     Dir.chdir 'build' do
