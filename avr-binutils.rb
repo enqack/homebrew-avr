@@ -45,8 +45,8 @@ class AvrBinutils < Formula
     end
 
     # Pick up any autotools changes.
-    ENV['AUTOCONF'] = `which autoconf264`
-    ENV['AUTOM4TE'] = `which autom4te264`
+    ENV['AUTOCONF'] = 'autoconf264'
+    ENV['AUTOM4TE'] = 'autom4te264'
     system "autoconf"
     system "autoreconf", "ld"
 
