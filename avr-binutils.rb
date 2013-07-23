@@ -45,8 +45,8 @@ class AvrBinutils < Formula
     end
 
     # Pick up any autotools changes.
-    ENV['AUTOCONF'] = '/usr/local/bin/autoconf264'
-    ENV['AUTOM4TE'] = '/usr/local/bin/autom4te264'
+    ENV['AUTOCONF'] = `which autoconf264`
+    ENV['AUTOM4TE'] = `which autom4te264`
     system "autoconf"
     system "autoreconf", "ld"
 
