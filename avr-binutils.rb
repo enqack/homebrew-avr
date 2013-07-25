@@ -2,15 +2,15 @@ require 'formula'
 
 # Atmel distributes a complete tarball of patches.
 class AtmelPatches < Formula
-  url 'http://distribute.atmel.no/tools/opensource/Atmel-AVR-Toolchain-3.4.2/avr/avr-patches.tar.gz'
+  url 'http://distribute.atmel.no/tools/opensource/Atmel-AVR-Toolchain-3.4.1.830/avr/avr-patches.tar.gz'
   homepage 'http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORLINUX.aspx'
-  sha1 'e5ca76595c6e1c6678dd42489312a961f5733ebf'
+  sha1 '08208bdc9ddb6b4b328c1b4c94a2b81f1d750289'
 end
 
 class AvrBinutils < Formula
-  url 'http://ftp.gnu.org/gnu/binutils/binutils-2.23.2.tar.bz2'
+  url 'http://ftp.gnu.org/gnu/binutils/binutils-2.22.tar.bz2'
   homepage 'http://www.gnu.org/software/binutils/binutils.html'
-  md5 '4f8fa651e35ef262edc01d60fb45702e'
+  md5 'ee0f10756c84979622b992a4a61ea3f5'
 
   depends_on 'autoconf264'
   depends_on :automake
