@@ -73,9 +73,9 @@ class AvrGcc < Formula
     languages << 'c++' unless build.include? 'disable-cxx'
 
     # Pick up any autotools changes.
-    #ENV['AUTOCONF'] = '/usr/local/bin/autoconf264'
-    #ENV['AUTOM4TE'] = '/usr/local/bin/autom4te264'
-    system "autoconf"
+    #ENV['AUTOCONF'] = '/usr/local/bin/autoconf'
+    #ENV['AUTOM4TE'] = '/usr/local/bin/autom4te'
+    #system "autoconf"
 
     Dir.mkdir 'build'
     Dir.chdir 'build' do
