@@ -1,9 +1,9 @@
 require 'formula'
 
 class AvrBinutils <Formula
-  url 'http://ftp.gnu.org/gnu/binutils/binutils-2.22.tar.gz'
+  url 'http://ftp.gnu.org/gnu/binutils/binutils-2.22.tar.bz2'
   homepage 'http://www.gnu.org/software/binutils/binutils.html'
-  md5 '8b3ad7090e3989810943aa19103fdb83'
+  sha1 '65b304a0b9a53a686ce50a01173d1f40f8efe404'
 
   def install
     ENV.append 'CPPFLAGS', "-I#{include}"
