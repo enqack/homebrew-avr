@@ -2,7 +2,7 @@ require 'formula'
 
 # Atmel distributes a complete tarball of patches.
 class AtmelPatches < Formula
-  url 'http://distribute.atmel.no/tools/opensource/Atmel-AVR-Toolchain-3.4.1.830/avr/avr-patches.tar.gz'
+  url 'http://distribute.atmel.no/tools/opensource/Atmel-AVR-Toolchain-3.4.2/avr/avr-patches.tar.gz'
   homepage 'http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORLINUX.aspx'
   sha1 '08208bdc9ddb6b4b328c1b4c94a2b81f1d750289'
 end
