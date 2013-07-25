@@ -8,7 +8,7 @@ class AtmelPatches < Formula
 end
 
 class AvrBinutils < Formula
-  url 'http://ftp.gnu.org/gnu/binutils/binutils-2.23.tar.bz2'
+  url 'http://ftp.gnu.org/gnu/binutils/binutils-2.23.2.tar.bz2'
   homepage 'http://www.gnu.org/software/binutils/binutils.html'
   md5 'ee0f10756c84979622b992a4a61ea3f5'
 
