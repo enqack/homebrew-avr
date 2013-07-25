@@ -4,7 +4,7 @@ require 'formula'
 class AtmelPatches < Formula
   url 'http://distribute.atmel.no/tools/opensource/Atmel-AVR-Toolchain-3.4.2/avr/avr-patches.tar.gz'
   homepage 'http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORLINUX.aspx'
-  sha1 '08208bdc9ddb6b4b328c1b4c94a2b81f1d750289'
+  sha1 'e5ca76595c6e1c6678dd42489312a961f5733ebf'
 end
 
 class AvrBinutils < Formula
